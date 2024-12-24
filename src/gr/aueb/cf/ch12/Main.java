@@ -16,7 +16,7 @@ public class Main {
         System.out.println("Teacher full name: " + teacher.getFirstname() + ", " + teacher.getLastname());
         System.out.println("User username: " + user.getUsername());
         System.out.println("Customer Vat: " + customer.getVatRegistrationNo());
-        System.out.println("Order Formatted Timestamp" + order.getFormattedTimestamp());
+        System.out.println("Order Formatted Timestamp: " + order.getFormattedTimestamp());
         System.out.printf("Point: {%d, %d}\n", point.getX(), point.getY());
     }
 }
