@@ -1,13 +1,13 @@
 package gr.aueb.cf.ch15;
 
-public class Cat implements ISpeakable {
+public class Dog implements ISpeakable {
     private String name;
 
-    public Cat() {
+    public Dog() {
 
     }
 
-    public Cat(String name) {
+    public Dog(String name) {
         this.name = name;
     }
 
@@ -21,6 +21,6 @@ public class Cat implements ISpeakable {
 
     @Override
     public void speak() {
-        System.out.println(name + " says hi!");
+        System.out.println(name + " says hello!");
     }
 }

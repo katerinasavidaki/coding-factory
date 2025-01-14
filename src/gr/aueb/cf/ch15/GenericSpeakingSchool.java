@@ -1,13 +1,18 @@
 package gr.aueb.cf.ch15;
 
-public class SpeakingSchool {
-    private final Cat cat = new Cat();
+public class GenericSpeakingSchool {
+    private final ISpeakable iSpeakable;
 
-    public SpeakingSchool() {
 
+    /**
+     * Dependency Injection (DI) - IoC - Inversion of Control
+     * @param iSpeakable
+     */
+    public GenericSpeakingSchool(ISpeakable iSpeakable) {
+        this.iSpeakable = iSpeakable;
     }
 
-    public void learnToSchool() {
-        cat.speak();
+    public void learnToSpeak() {
+        iSpeakable.speak();
     }
 }
