@@ -5,4 +5,9 @@ public class Square extends AbstractRectangle {
     public Square() {
         super();
     }
+
+    @Override
+    public double getDiagonal() {
+        return 0;
+    }
 }
