@@ -4,7 +4,9 @@ public class Circle extends AbstractShape implements ITwoDimensional {
 
     private double radius;
 
-    public Circle() {}
+    public Circle() {
+
+    }
 
     public Circle(double radius) {
         this.radius = radius;
