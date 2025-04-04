@@ -39,7 +39,7 @@ public class EchoServer extends Thread {
             try {
                 if (servFd != null) servFd.close();
             } catch (IOException e) {
-                e.printStackTrace();
+//                e.printStackTrace();
             }
         }
     }

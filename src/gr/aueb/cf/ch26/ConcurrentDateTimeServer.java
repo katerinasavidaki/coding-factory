@@ -21,7 +21,7 @@ public class ConcurrentDateTimeServer implements Runnable {
             bw.flush();
             socket.close();
         } catch (IOException e) {
-            e.printStackTrace();
+//            e.printStackTrace();
         }
     }
 }

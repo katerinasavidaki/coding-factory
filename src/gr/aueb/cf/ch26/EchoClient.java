@@ -35,7 +35,7 @@ public class EchoClient {
             try {
                 if (sockFd != null) sockFd.close();
             } catch (IOException e) {
-                e.printStackTrace();
+//                e.printStackTrace();
             }
         }
     }

@@ -22,7 +22,7 @@ public class ConcurrentDateTimeServerApp {
             }
 
         } catch (IOException e) {
-            e.printStackTrace();
+//            e.printStackTrace();
         }
     }
 }
