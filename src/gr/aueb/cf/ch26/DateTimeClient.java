@@ -33,7 +33,7 @@ public class DateTimeClient {
                 if (socket != null) socket.close();
                 if (bf != null) bf.close();
             } catch (IOException e) {
-//                e.printStackTrace();
+                e.printStackTrace();
             }
 
         }
